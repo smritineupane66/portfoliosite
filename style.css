@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather&family=Playfair+Display&family=Poppins:wght@300&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: #f4f4f4;
+
+}
+.profilecard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 24px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profilecard .text-data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.image .profile-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+
+}
+.text-data .name{
+    font-size: 22px;
+    font-weight: bold;
+}
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400px;
+}
+.profilecard .media-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.media-buttons .links{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 8px;
+    text-decoration: none;
+    background-color: rgb(53, 215, 215);
+}
+.profilecard .buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.buttons .button{
+    border-radius: 20px;
+    margin: 0px 10px;
+    background-color: #4070f4;
+    padding: 4px 15px;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 2s ease;
+}
+.buttons .button:hover{
+    background-color: rgb(20, 3, 3);
+}
